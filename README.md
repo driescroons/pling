@@ -4,6 +4,8 @@ The official package for Pling. Pling is a cloud based logging service for aggre
 
 This package is a simple helper so you can easily integrate the Pling API into your existing applications. I've provided an example with [create-react-app](https://github.com/driescroons/pling-react) and a basic [express](https://github.com/driescroons/pling-express) app.
 
+[![NPM](https://nodei.co/npm/pling.png)](https://nodei.co/npm/pling/)
+
 ## 👉 Implementation
 
 Implemeting it is quite easy. First install it.
