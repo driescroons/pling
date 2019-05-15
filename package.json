@@ -1,6 +1,10 @@
 {
   "name": "pling",
-  "version": "1.0.0-rc.5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/driescroons/pling"
+  },
+  "version": "1.0.0-rc.6",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "Dries Croons",
