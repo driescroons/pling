@@ -1,8 +1,10 @@
 # 🔔 Pling
 
-The official package for Pling. Pling is a cloud based logging service for aggregating, grouping and displaying logs from across your entire stack - frontend / backend / iot devices / games / ... or maybe just so you can track the oxygen in the office! It is the easiest way to keep collegues, clients, stakeholders and yourself in the loop of what's going.
+The official package for [Pling](https://pling.dev). Pling is a cloud based logging service for aggregating, grouping and displaying logs from across your entire stack - frontend / backend / iot devices / games / ... or maybe just so you can track the oxygen in the office! It is the easiest way to keep collegues, clients, stakeholders and yourself in the loop of what's going.
 
 This package is a simple helper so you can easily integrate the Pling API into your existing applications. I've provided an example with [create-react-app](https://github.com/driescroons/pling-react) and a basic [express](https://github.com/driescroons/pling-express) app.
+
+[![NPM](https://nodei.co/npm/pling.png)](https://nodei.co/npm/pling/)
 
 ## 👉 Implementation
 
