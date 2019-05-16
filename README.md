@@ -8,7 +8,7 @@ This package is a simple helper so you can easily integrate the Pling API into y
 
 ## 👉 Implementation
 
-Implemeting it is quite easy. First install it.
+Implemeting it is quite easy. First install it:
 
 ```
 yarn add pling
@@ -16,13 +16,19 @@ yarn add pling
 
 ### 🤖 Node
 
-Importing the package
+Importing the package:
 
 ```
 const notify = require("pling");
 ```
 
-Copy and paste the following where you'd like to log something.
+In Typescript:
+
+```
+import * as notify from "pling";
+```
+
+Copy and paste the following where you'd like to log something:
 
 ```
 await notify({
@@ -32,7 +38,7 @@ await notify({
 });
 ```
 
-Please make sure to set your **PLING_API_KEY** environment variable. In Node, you can do so by doing the following.
+Please make sure to set your **PLING_API_KEY** environment variable. In Node, you can do so by doing the following:
 
 ```
 process.env[PLING_API_KEY] = "YOUR_API_KEY";
@@ -40,13 +46,13 @@ process.env[PLING_API_KEY] = "YOUR_API_KEY";
 
 ### 🤖 React / Vue / Angular
 
-Importing the package
+Importing the package:
 
 ```
-import notify from "pling";
+import * as notify from "pling";
 ```
 
-Copy and paste the following where you'd like to log something.
+Copy and paste the following where you'd like to log something:
 
 ```
  await notify({
@@ -56,9 +62,9 @@ Copy and paste the following where you'd like to log something.
   });
 ```
 
-Please make sure to set your **PLING_API_KEY** environment variable.
+Please make sure to set your **PLING_API_KEY** environment variable:
 
-In create react app, you can do so by creating a **.env** file in the root and specifying the following. Make sure to change the **_PLING_API_KEY_** to **_REACT_APP_PLING_API_KEY_**
+In create react app, you can do so by creating a **.env** file in the root and specifying the following. Make sure to change the **_PLING_API_KEY_** to **_REACT_APP_PLING_API_KEY_**:
 
 ```
 REACT_APP_PLING_API_KEY=YOUR_API_KEY_HERE
